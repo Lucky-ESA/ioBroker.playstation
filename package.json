@@ -29,7 +29,7 @@
         "json-bigint": "^1.0.0",
         "multicast-dns": "^7.2.5",
         "playactor-iobroker": "^0.5.0",
-        "tough-cookie": "^5.1.2"
+        "tough-cookie": "^6.0.0"
     },
     "devDependencies": {
         "@alcalzone/release-script": "^3.8.0",
