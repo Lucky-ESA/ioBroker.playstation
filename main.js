@@ -231,7 +231,7 @@ class Playstation extends utils.Adapter {
     }
 
     forbidden_ip(ip) {
-        return ip.replace(/[.]/gu, "_").replace(this.FORBIDDEN_CHARS, "_");
+        return ip.replace(/[.]/g, "_").replace(this.FORBIDDEN_CHARS, "_");
     }
 
     setRefreshTokenInterval() {
