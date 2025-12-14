@@ -24,7 +24,7 @@
     },
     "dependencies": {
         "@iobroker/adapter-core": "^3.3.2",
-        "axios": "^1.11.0",
+        "axios": "^1.12.2",
         "http-cookie-agent": "^7.0.2",
         "json-bigint": "^1.0.0",
         "multicast-dns": "^7.2.5",
