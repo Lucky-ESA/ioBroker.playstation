@@ -121,7 +121,7 @@ You can wake up the Playstation or put it into standby mode. Some buttons are al
 
 MIT License
 
-Copyright (c) 2025 Lucky-ESA <github@luckyskills.de>
+Copyright (c) 2025-2026 Lucky-ESA <github@luckyskills.de>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
