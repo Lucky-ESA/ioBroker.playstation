@@ -92,6 +92,7 @@ You can wake up the Playstation or put it into standby mode. Some buttons are al
 -->
 
 ### **WORK IN PROGRESS**
+- (copilot) Adapter requires node.js >= 22 now
 
 - (Lucky-ESA) Added Playstation Stars
 - (Lucky-ESA) Added Playstation Store
