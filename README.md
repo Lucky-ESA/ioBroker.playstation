@@ -117,6 +117,8 @@ You can wake up the Playstation or put it into standby mode. Some buttons are al
 
 - (Lucky-ESA) initial release
 
+[Older changelogs can be found there](CHANGELOG_OLD.md)
+
 ## License
 
 MIT License
