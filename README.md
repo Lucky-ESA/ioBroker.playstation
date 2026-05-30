@@ -90,8 +90,7 @@ You can wake up the Playstation or put it into standby mode. Some buttons are al
     Placeholder for the next version (at the beginning of the line):
     ### **WORK IN PROGRESS**
 -->
-
-### **WORK IN PROGRESS**
+### 0.0.4 (2026-05-30)
 
 - (Lucky-ESA) Added Playstation Stars
 - (Lucky-ESA) Added Playstation Store
@@ -118,9 +117,7 @@ You can wake up the Playstation or put it into standby mode. Some buttons are al
 
 - (Lucky-ESA) initial release
 
-[Older changelogs can be found there](CHANGELOG_OLD.md)
-
-## License
+[Older changelogs can be found there](CHANGELOG_OLD.md)## License
 
 MIT License
 
