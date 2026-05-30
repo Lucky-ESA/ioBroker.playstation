@@ -4,26 +4,30 @@
 # Reference: https://docs.github.com/en/code-security/reference/supply-chain-security/dependabot-options-reference
 version: 2
 updates:
+    - package-ecosystem: "npm"
+      schedule:
+          interval: "cron"
+          cronjob: "7 3 * * 3"
+          timezone: "Europe/Berlin"
+      open-pull-requests-limit: 15
+      assignees:
+          - "Lucky-ESA"
+      versioning-strategy: "increase"
+      cooldown:
+          default-days: 7
+      ignore:
+          - dependency-name: "@types/node"
+            update-types:
+                - "version-update:semver-major"
+      directories:
+          - "**/*"
 
-  - package-ecosystem: 'npm'
-    directory: '/'
-    schedule:
-      interval: 'cron'
-      timezone: 'Europe/Berlin'
-      cronjob: '31 2 21 * *'
-    open-pull-requests-limit: 15
-    assignees:
-      - 'Lucky-ESA'
-    versioning-strategy: 'increase'
-    cooldown:
-      default-days: 7
-
-  - package-ecosystem: 'github-actions'
-    directory: '/'
-    schedule:
-      interval: 'cron'
-      timezone: 'Europe/Berlin'
-      cronjob: '31 2 21 * *'
-    open-pull-requests-limit: 15
-    assignees:
-      - 'Lucky-ESA'
+    - package-ecosystem: "github-actions"
+      directory: "/"
+      schedule:
+          interval: "cron"
+          cronjob: "47 5 * * 6"
+          timezone: "Europe/Berlin"
+      open-pull-requests-limit: 15
+      assignees:
+          - "Lucky-ESA"

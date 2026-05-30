@@ -9,14 +9,12 @@ const util = require("node:util");
 const udp = require("node:dgram");
 const axios = require("axios");
 const Json2iob = require("./lib/extractKeys");
-const tough = require("tough-cookie");
 const constants = require("./lib/constants");
 const requests_trophy = require("./lib/requests_trophy");
 const requests_profile = require("./lib/requests_profile");
 const requests_group = require("./lib/requests_group");
 const requests_star = require("./lib/requests_star");
 const requests_store = require("./lib/requests_store");
-const { HttpsCookieAgent } = require("http-cookie-agent/http");
 const exec = util.promisify(require("node:child_process").exec);
 const path = require("node:path");
 const fs = require("node:fs");
@@ -26,6 +24,8 @@ const PS4 = require("./lib/connection");
 const helper = require("./lib/helper");
 const { createHash } = require("node:crypto");
 const http = require("node:http");
+const https = require("node:https");
+
 let status = {
     countRequest: 0,
     maxRequest: 600,
@@ -114,18 +114,11 @@ class Playstation extends utils.Adapter {
         this.server = null;
         this.countLogin = 0;
         this.countRefreshLogin = 0;
-        this.cookieJar = new tough.CookieJar();
         this.requestClient = axios.create({
             withCredentials: true,
             timeout: 5000,
             httpAgent: new http.Agent({ keepAlive: true }),
-            httpsAgent: new HttpsCookieAgent({
-                cookies: {
-                    jar: this.cookieJar,
-                },
-                keepAlive: true,
-                rejectUnauthorized: false,
-            }),
+            httpsAgent: new https.Agent({ keepAlive: true }),
         });
         this.json2iob = new Json2iob(this);
     }

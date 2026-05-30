@@ -66,9 +66,9 @@ You can wake up the Playstation or put it into standby mode. Some buttons are al
 
 ## Requirements
 
-- Node 20, 22 or 24
+- Node 22 or 24
 - JS-Controller >= 6.0.11
-- Admin >= 7.6.17
+- Admin >= 7.8.23
 - Playstation4/5
 
 ## Tested with
@@ -96,7 +96,8 @@ You can wake up the Playstation or put it into standby mode. Some buttons are al
 - (Lucky-ESA) Added Playstation Stars
 - (Lucky-ESA) Added Playstation Store
 - (Lucky-ESA) Fixed create folder
-- (Lucky-ESA) Admin 7.6.17 required
+- (Lucky-ESA) Admin 7.8.23 required
+- (copilot) Adapter requires node.js >= 22 now
 
 ### 0.0.3 (2025-02-14)
 
