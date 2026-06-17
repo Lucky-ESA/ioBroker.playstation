@@ -23,7 +23,7 @@
     "node": ">= 22"
   },
   "dependencies": {
-    "@iobroker/adapter-core": "^3.3.2",
+    "@iobroker/adapter-core": "^3.4.1",
     "axios": "^1.16.1",
     "json-bigint": "^1.0.0",
     "multicast-dns": "^7.2.5",
