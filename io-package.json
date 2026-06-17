@@ -1,266 +1,251 @@
 {
-  "common": {
-    "name": "playstation",
-    "version": "0.0.4",
-    "news": {
-      "0.0.4": {
-        "en": "Added Playstation Stars\nAdded Playstation Store\nFixed create folder\nAdmin 7.8.23 required\nAdapter requires node.js >= 22 now",
-        "de": "Hinzugefügt Playstation Sterne\nHinzugefügt Playstation Store\nBehobener Ordner erstellen\nAdmin 7.8.23 erforderlich\nAdapter benötigt node.js >= 22 jetzt",
-        "ru": "Добавлены звезды PlayStation\nДобавлен магазин Playstation\nFixed Create Папка\nТребуется администратор 7.8.23\nАдаптер требует node.js >= 22 сейчас",
-        "pt": "Estrelas de Playstation adicionadas\nLoja de Playstation adicionada\nFixo criar pasta\nAdministração 7.8.23 necessária\nAdaptador requer nod.js >= 22 agora",
-        "nl": "Playstationsterren toegevoegd\nToegevoegde Playstation Store\nVaste aanmaakmap\nBeheerder 7.8.23 vereist\nVoor de adapter zijn node.js < 22 nu nodig",
-        "fr": "Ajout d'étoiles de Playstation\nAjout de Playstation Store\nCorrection du dossier de création\nAdmin 7.8.23 requis\nAdaptateur nécessite node.js >= 22 maintenant",
-        "it": "Aggiunto Playstation Stelle\nAggiunto Playstation Store\nRisolto creare cartella\nAdmin 7.8.23 richiesto\nAdattatore richiede node.js >= 22 ora",
-        "es": "Añadido estrellas de la estación de juego\nTienda de Playstation\nCarpeta de creación fija\nAdmin 7.8.23 requerido\nAdaptador requiere node.js ю= 22 ahora",
-        "pl": "Dodano gwiazdy Playstation\nDodano Playstation Store\nNaprawiono tworzenie folderu\nWymagany admin 7.8.23\nAdapter wymaga node.js > = 22",
-        "uk": "Додано Playstation зірки\nДодано Playstation Store\nВиправлено створення папки\nАдміністратор 7.8.23 потрібно\nАдаптер вимагає node.js >= 22 тепер",
-        "zh-cn": "添加播放站星\n添加播放站存储\n固定创建文件夹\n所需行政费7.8.23\n适配器需要节点.js 现在22"
-      },
-      "0.0.3": {
-        "en": "Fixed bug when creating a group\nFriendship request accept added\nFriendship request reject added\nAdded loading voice data from a message\nAdded status restrictions as JSON\nAdded meta object for attachments from message",
-        "de": "Fehler beim Erstellen einer Gruppe behoben\nFreundschaftsanfrage akzeptieren hinzugefügt\nFreundschaftsantrag abgelehnt hinzugefügt\nHinzugefügt Laden von Sprachdaten aus einer Nachricht\nStatusbeschränkungen als JSON hinzugefügt\nMeta-Objekt für Anhänge aus der Nachricht hinzugefügt",
-        "ru": "Исправленная ошибка при создании группы\nЗапрос на дружбу\nЗапрос о дружбе отказался\nДобавлена загрузка голосовых данных из сообщения\nДобавлены ограничения статуса как JSON\nДобавлен мета-объект для приложений из сообщения",
-        "pt": "Corrigido o erro ao criar um grupo\nPedido de amizade aceitar adicionado\nPedido de amizade rejeitado adicionado\nAdicionado carregamento de dados de voz de uma mensagem\nAdicionadas restrições de status como JSON\nAdicionado meta objeto para anexos da mensagem",
-        "nl": "Fixed bug bij aanmaken van een groep\nVriendschapsaanvraag accepteren toegevoegd\nVriendschapsverzoek afgewezen\nToegevoegd het laden van spraakgegevens uit een bericht\nStatusbeperkingen toegevoegd als JSON\nMeta-object toegevoegd voor bijlagen uit bericht",
-        "fr": "Correction du bogue lors de la création d'un groupe\nDemande d'amitié acceptée\nDemande d'amitié rejetée ajoutée\nAjout du chargement des données vocales à partir d'un message\nAjout de restrictions de statut en tant que JSON\nAjout d'un objet méta pour les pièces jointes du message",
-        "it": "Corretto bug quando si crea un gruppo\nRichiesta di amicizia accetta aggiunto\nRichiesta di amicizia rifiutare aggiunto\nAggiunto caricamento dei dati vocali da un messaggio\nAggiunte restrizioni di stato come JSON\nAggiunto meta oggetto per allegati dal messaggio",
-        "es": "Error fijo al crear un grupo\nSolicitud de amistad acepta añadido\nSolicitud de amistad rechazada\nDatos de voz de carga adicionales de un mensaje\nRestricciones de estado adicionales como JSON\nAñadido meta objeto para apegos del mensaje",
-        "pl": "Naprawiono błąd podczas tworzenia grupy\nProśba o przyjazd\nProśba o przyjazd odrzucona\nDodano wczytanie danych głosowych z wiadomości\nDodano ograniczenia statusu JSON\nDodano obiekt meta dla załączników z wiadomości",
-        "uk": "Виправлена помилка при створенні групи\nЗаява про дружбу\nЗаява про дружбу\nДодано завантаження голосових даних з повідомлення\nДодано обмеження стану як JSON\nДодано об'єкт мета для вкладення з повідомлення",
-        "zh-cn": "创建组时的固定错误\n友谊请求接受后增加\n友谊请求被拒绝后添加\n从信件加载语音数据\n添加身份限制为 JSON\n从信件中添加附件的元对象"
-      },
-      "0.0.2": {
-        "en": "Added groups and messages\nAdded: Share Profile\nLoad attachments from messages (raw data)",
-        "de": "Gruppen und Nachrichten hinzugefügt\nHinzugefügt: Profil teilen\nAnhänge von Nachrichten laden (Rohdaten)",
-        "ru": "Добавленные группы и сообщения\nДобавлено: Share Profile\nЗагрузить вложения из сообщений (обычные данные)",
-        "pt": "Adicionados grupos e mensagens\nAdicionado: Share Profile\nCarregar anexos de mensagens (dados de rastreamento)",
-        "nl": "Groepen en berichten toegevoegd\nToegevoegd: Profiel delen\nBijlagen uit berichten laden (raw data)",
-        "fr": "Groupes et messages ajoutés\nAjouté: Partager le profil\nCharger les pièces jointes des messages (données brutes)",
-        "it": "Gruppi e messaggi aggiunti\nAggiunto: Share Profile\nCaricare gli allegati dai messaggi (dati bassi)",
-        "es": "Grupos y mensajes adicionales\nAñadido: Perfil de Compartir\nCargar adjuntos de mensajes (datos de rocío)",
-        "pl": "Dodano grupy i wiadomości\nDodano: Udostępnianie profilu\nWczytaj załączniki z wiadomości (dane surowe)",
-        "uk": "Додано групи та повідомлення\nДоданий: Загальний профіль\nЗавантаження вкладення з повідомлень (відведення даних)",
-        "zh-cn": "添加的组和信件\n添加: 共享配置文件\n从信件装入附件( 原始数据)"
-      },
-      "0.0.1": {
-        "en": "initial release",
-        "de": "Erstveröffentlichung",
-        "ru": "Начальная версия",
-        "pt": "lançamento inicial",
-        "nl": "Eerste uitgave",
-        "fr": "Première version",
-        "it": "Versione iniziale",
-        "es": "Versión inicial",
-        "pl": "Pierwsze wydanie",
-        "uk": "Початкова версія",
-        "zh-cn": "首次出版"
-      }
-    },
-    "titleLang": {
-      "en": "PS4 and PS5",
-      "de": "PS4 und PS5",
-      "ru": "ПС4 и ПС5",
-      "pt": "PS4 e PS5",
-      "nl": "PS4 en PS5",
-      "fr": "PS4 et PS5",
-      "it": "PS4 e PS5",
-      "es": "PS4 y PS5",
-      "pl": "PS4 i PS5",
-      "uk": "PS4 і PS5",
-      "zh-cn": "PS4 和 PS5"
-    },
-    "desc": {
-      "en": "PS remote control",
-      "de": "PS-Fernbedienung",
-      "ru": "PS пульт дистанционного управления",
-      "pt": "Controle remoto PS",
-      "nl": "PS-afstandsbediening",
-      "fr": "Télécommande PS",
-      "it": "telecomando PS",
-      "es": "mando a distancia ps",
-      "pl": "Pilot do PS",
-      "uk": "Пульт дистанційного керування PS",
-      "zh-cn": "PS遥控器"
-    },
-    "authors": [
-      "Lucky-ESA <github@luckyskills.de>"
-    ],
-    "keywords": [
-      "ps4",
-      "ps5",
-      "playstation",
-      "psn-api"
-    ],
-    "licenseInformation": {
-      "type": "free",
-      "license": "MIT"
-    },
-    "platform": "Javascript/Node.js",
-    "icon": "playstation.png",
-    "enabled": true,
-    "extIcon": "https://raw.githubusercontent.com/Lucky-ESA/ioBroker.playstation/main/admin/playstation.png",
-    "readme": "https://github.com/Lucky-ESA/ioBroker.playstation/blob/main/README.md",
-    "loglevel": "info",
-    "tier": 3,
-    "mode": "daemon",
-    "type": "iot-systems",
-    "compact": true,
-    "messagebox": true,
-    "connectionType": "local",
-    "dataSource": "push",
-    "adminUI": {
-      "config": "json"
-    },
-    "docs": {
-      "en": [
-        "docs/en/README.md"
-      ],
-      "de": [
-        "docs/de/README.md"
-      ]
-    },
-    "dependencies": [
-      {
-        "js-controller": ">=6.0.11"
-      }
-    ],
-    "globalDependencies": [
-      {
-        "admin": ">=7.6.17"
-      }
-    ]
-  },
-  "encryptedNative": [
-    "npsso"
-  ],
-  "protectedNative": [
-    "npsso"
-  ],
-  "native": {
-    "ps": [],
-    "npsso": "",
-    "selectPS4": "",
-    "psn": false,
-    "langPSN": "de-DE",
-    "star": false
-  },
-  "objects": [],
-  "instanceObjects": [
-    {
-      "_id": "",
-      "type": "meta",
-      "common": {
-        "name": {
-          "en": "Meta storage for user files",
-          "de": "Meta-Speicher für Benutzerdateien",
-          "ru": "Meta Storage для файлов пользователей",
-          "pt": "Meta de armazenamento para arquivos de usuário",
-          "nl": "Meta opslag voor gebruikersbestanden",
-          "fr": "Stockage Meta pour les fichiers utilisateur",
-          "it": "Meta storage per i file utente",
-          "es": "Meta almacenamiento para archivos de usuario",
-          "pl": "Meta storage for user files",
-          "uk": "Зберігання мета для файлів користувачів",
-          "zh-cn": "用户档案的储存"
+    "common": {
+        "name": "playstation",
+        "version": "0.0.4",
+        "news": {
+            "0.0.4": {
+                "en": "Added Playstation Stars\nAdded Playstation Store\nFixed create folder\nAdmin 7.8.23 required\nAdapter requires node.js >= 22 now",
+                "de": "Hinzugefügt Playstation Sterne\nHinzugefügt Playstation Store\nBehobener Ordner erstellen\nAdmin 7.8.23 erforderlich\nAdapter benötigt node.js >= 22 jetzt",
+                "ru": "Добавлены звезды PlayStation\nДобавлен магазин Playstation\nFixed Create Папка\nТребуется администратор 7.8.23\nАдаптер требует node.js >= 22 сейчас",
+                "pt": "Estrelas de Playstation adicionadas\nLoja de Playstation adicionada\nFixo criar pasta\nAdministração 7.8.23 necessária\nAdaptador requer nod.js >= 22 agora",
+                "nl": "Playstationsterren toegevoegd\nToegevoegde Playstation Store\nVaste aanmaakmap\nBeheerder 7.8.23 vereist\nVoor de adapter zijn node.js < 22 nu nodig",
+                "fr": "Ajout d'étoiles de Playstation\nAjout de Playstation Store\nCorrection du dossier de création\nAdmin 7.8.23 requis\nAdaptateur nécessite node.js >= 22 maintenant",
+                "it": "Aggiunto Playstation Stelle\nAggiunto Playstation Store\nRisolto creare cartella\nAdmin 7.8.23 richiesto\nAdattatore richiede node.js >= 22 ora",
+                "es": "Añadido estrellas de la estación de juego\nTienda de Playstation\nCarpeta de creación fija\nAdmin 7.8.23 requerido\nAdaptador requiere node.js ю= 22 ahora",
+                "pl": "Dodano gwiazdy Playstation\nDodano Playstation Store\nNaprawiono tworzenie folderu\nWymagany admin 7.8.23\nAdapter wymaga node.js > = 22",
+                "uk": "Додано Playstation зірки\nДодано Playstation Store\nВиправлено створення папки\nАдміністратор 7.8.23 потрібно\nАдаптер вимагає node.js >= 22 тепер",
+                "zh-cn": "添加播放站星\n添加播放站存储\n固定创建文件夹\n所需行政费7.8.23\n适配器需要节点.js 现在22"
+            },
+            "0.0.3": {
+                "en": "Fixed bug when creating a group\nFriendship request accept added\nFriendship request reject added\nAdded loading voice data from a message\nAdded status restrictions as JSON\nAdded meta object for attachments from message",
+                "de": "Fehler beim Erstellen einer Gruppe behoben\nFreundschaftsanfrage akzeptieren hinzugefügt\nFreundschaftsantrag abgelehnt hinzugefügt\nHinzugefügt Laden von Sprachdaten aus einer Nachricht\nStatusbeschränkungen als JSON hinzugefügt\nMeta-Objekt für Anhänge aus der Nachricht hinzugefügt",
+                "ru": "Исправленная ошибка при создании группы\nЗапрос на дружбу\nЗапрос о дружбе отказался\nДобавлена загрузка голосовых данных из сообщения\nДобавлены ограничения статуса как JSON\nДобавлен мета-объект для приложений из сообщения",
+                "pt": "Corrigido o erro ao criar um grupo\nPedido de amizade aceitar adicionado\nPedido de amizade rejeitado adicionado\nAdicionado carregamento de dados de voz de uma mensagem\nAdicionadas restrições de status como JSON\nAdicionado meta objeto para anexos da mensagem",
+                "nl": "Fixed bug bij aanmaken van een groep\nVriendschapsaanvraag accepteren toegevoegd\nVriendschapsverzoek afgewezen\nToegevoegd het laden van spraakgegevens uit een bericht\nStatusbeperkingen toegevoegd als JSON\nMeta-object toegevoegd voor bijlagen uit bericht",
+                "fr": "Correction du bogue lors de la création d'un groupe\nDemande d'amitié acceptée\nDemande d'amitié rejetée ajoutée\nAjout du chargement des données vocales à partir d'un message\nAjout de restrictions de statut en tant que JSON\nAjout d'un objet méta pour les pièces jointes du message",
+                "it": "Corretto bug quando si crea un gruppo\nRichiesta di amicizia accetta aggiunto\nRichiesta di amicizia rifiutare aggiunto\nAggiunto caricamento dei dati vocali da un messaggio\nAggiunte restrizioni di stato come JSON\nAggiunto meta oggetto per allegati dal messaggio",
+                "es": "Error fijo al crear un grupo\nSolicitud de amistad acepta añadido\nSolicitud de amistad rechazada\nDatos de voz de carga adicionales de un mensaje\nRestricciones de estado adicionales como JSON\nAñadido meta objeto para apegos del mensaje",
+                "pl": "Naprawiono błąd podczas tworzenia grupy\nProśba o przyjazd\nProśba o przyjazd odrzucona\nDodano wczytanie danych głosowych z wiadomości\nDodano ograniczenia statusu JSON\nDodano obiekt meta dla załączników z wiadomości",
+                "uk": "Виправлена помилка при створенні групи\nЗаява про дружбу\nЗаява про дружбу\nДодано завантаження голосових даних з повідомлення\nДодано обмеження стану як JSON\nДодано об'єкт мета для вкладення з повідомлення",
+                "zh-cn": "创建组时的固定错误\n友谊请求接受后增加\n友谊请求被拒绝后添加\n从信件加载语音数据\n添加身份限制为 JSON\n从信件中添加附件的元对象"
+            },
+            "0.0.2": {
+                "en": "Added groups and messages\nAdded: Share Profile\nLoad attachments from messages (raw data)",
+                "de": "Gruppen und Nachrichten hinzugefügt\nHinzugefügt: Profil teilen\nAnhänge von Nachrichten laden (Rohdaten)",
+                "ru": "Добавленные группы и сообщения\nДобавлено: Share Profile\nЗагрузить вложения из сообщений (обычные данные)",
+                "pt": "Adicionados grupos e mensagens\nAdicionado: Share Profile\nCarregar anexos de mensagens (dados de rastreamento)",
+                "nl": "Groepen en berichten toegevoegd\nToegevoegd: Profiel delen\nBijlagen uit berichten laden (raw data)",
+                "fr": "Groupes et messages ajoutés\nAjouté: Partager le profil\nCharger les pièces jointes des messages (données brutes)",
+                "it": "Gruppi e messaggi aggiunti\nAggiunto: Share Profile\nCaricare gli allegati dai messaggi (dati bassi)",
+                "es": "Grupos y mensajes adicionales\nAñadido: Perfil de Compartir\nCargar adjuntos de mensajes (datos de rocío)",
+                "pl": "Dodano grupy i wiadomości\nDodano: Udostępnianie profilu\nWczytaj załączniki z wiadomości (dane surowe)",
+                "uk": "Додано групи та повідомлення\nДоданий: Загальний профіль\nЗавантаження вкладення з повідомлень (відведення даних)",
+                "zh-cn": "添加的组和信件\n添加: 共享配置文件\n从信件装入附件( 原始数据)"
+            },
+            "0.0.1": {
+                "en": "initial release",
+                "de": "Erstveröffentlichung",
+                "ru": "Начальная версия",
+                "pt": "lançamento inicial",
+                "nl": "Eerste uitgave",
+                "fr": "Première version",
+                "it": "Versione iniziale",
+                "es": "Versión inicial",
+                "pl": "Pierwsze wydanie",
+                "uk": "Початкова версія",
+                "zh-cn": "首次出版"
+            }
         },
-        "type": "meta.user"
-      },
-      "native": {}
+        "titleLang": {
+            "en": "PS4 and PS5",
+            "de": "PS4 und PS5",
+            "ru": "ПС4 и ПС5",
+            "pt": "PS4 e PS5",
+            "nl": "PS4 en PS5",
+            "fr": "PS4 et PS5",
+            "it": "PS4 e PS5",
+            "es": "PS4 y PS5",
+            "pl": "PS4 i PS5",
+            "uk": "PS4 і PS5",
+            "zh-cn": "PS4 和 PS5"
+        },
+        "desc": {
+            "en": "PS remote control",
+            "de": "PS-Fernbedienung",
+            "ru": "PS пульт дистанционного управления",
+            "pt": "Controle remoto PS",
+            "nl": "PS-afstandsbediening",
+            "fr": "Télécommande PS",
+            "it": "telecomando PS",
+            "es": "mando a distancia ps",
+            "pl": "Pilot do PS",
+            "uk": "Пульт дистанційного керування PS",
+            "zh-cn": "PS遥控器"
+        },
+        "authors": ["Lucky-ESA <github@luckyskills.de>"],
+        "keywords": ["ps4", "ps5", "playstation", "psn-api"],
+        "licenseInformation": {
+            "type": "free",
+            "license": "MIT"
+        },
+        "platform": "Javascript/Node.js",
+        "icon": "playstation.png",
+        "enabled": true,
+        "extIcon": "https://raw.githubusercontent.com/Lucky-ESA/ioBroker.playstation/main/admin/playstation.png",
+        "readme": "https://github.com/Lucky-ESA/ioBroker.playstation/blob/main/README.md",
+        "loglevel": "info",
+        "tier": 3,
+        "mode": "daemon",
+        "type": "iot-systems",
+        "compact": true,
+        "messagebox": true,
+        "connectionType": "local",
+        "dataSource": "push",
+        "adminUI": {
+            "config": "json"
+        },
+        "docs": {
+            "en": ["docs/en/README.md"],
+            "de": ["docs/de/README.md"]
+        },
+        "dependencies": [
+            {
+                "js-controller": ">=6.0.11"
+            }
+        ],
+        "globalDependencies": [
+            {
+                "admin": ">=7.6.20"
+            }
+        ]
     },
-    {
-      "_id": "info",
-      "type": "channel",
-      "common": {
-        "name": {
-          "en": "Information",
-          "de": "Informationen",
-          "ru": "Информация",
-          "pt": "Informação",
-          "nl": "Informatie",
-          "fr": "Information",
-          "it": "Informazioni",
-          "es": "Información",
-          "pl": "Informacja",
-          "uk": "Інформація",
-          "zh-cn": "信息"
+    "encryptedNative": ["npsso"],
+    "protectedNative": ["npsso"],
+    "native": {
+        "ps": [],
+        "npsso": "",
+        "selectPS4": "",
+        "psn": false,
+        "langPSN": "de-DE",
+        "star": false
+    },
+    "objects": [],
+    "instanceObjects": [
+        {
+            "_id": "",
+            "type": "meta",
+            "common": {
+                "name": {
+                    "en": "Meta storage for user files",
+                    "de": "Meta-Speicher für Benutzerdateien",
+                    "ru": "Meta Storage для файлов пользователей",
+                    "pt": "Meta de armazenamento para arquivos de usuário",
+                    "nl": "Meta opslag voor gebruikersbestanden",
+                    "fr": "Stockage Meta pour les fichiers utilisateur",
+                    "it": "Meta storage per i file utente",
+                    "es": "Meta almacenamiento para archivos de usuario",
+                    "pl": "Meta storage for user files",
+                    "uk": "Зберігання мета для файлів користувачів",
+                    "zh-cn": "用户档案的储存"
+                },
+                "type": "meta.user"
+            },
+            "native": {}
+        },
+        {
+            "_id": "info",
+            "type": "channel",
+            "common": {
+                "name": {
+                    "en": "Information",
+                    "de": "Informationen",
+                    "ru": "Информация",
+                    "pt": "Informação",
+                    "nl": "Informatie",
+                    "fr": "Information",
+                    "it": "Informazioni",
+                    "es": "Información",
+                    "pl": "Informacja",
+                    "uk": "Інформація",
+                    "zh-cn": "信息"
+                }
+            },
+            "native": {}
+        },
+        {
+            "_id": "info.connection",
+            "type": "state",
+            "common": {
+                "role": "indicator.connected",
+                "name": {
+                    "en": "Device or service connected",
+                    "de": "Geräte- oder Serviceanschluss",
+                    "ru": "Устройство или сервис подключены",
+                    "pt": "Dispositivo ou serviço conectado",
+                    "nl": "Device of dienst verbonden",
+                    "fr": "Appareil ou service connecté",
+                    "it": "Dispositivo o servizio collegato",
+                    "es": "Dispositivo o servicio conectado",
+                    "pl": "Device",
+                    "uk": "Пристрої або послуги підключені",
+                    "zh-cn": "证人或有关服务"
+                },
+                "type": "boolean",
+                "read": true,
+                "write": false,
+                "def": false
+            },
+            "native": {}
+        },
+        {
+            "_id": "session",
+            "type": "state",
+            "common": {
+                "role": "state",
+                "name": {
+                    "en": "Session infos",
+                    "de": "Sitzungsinfos",
+                    "ru": "Сессионная информация",
+                    "pt": "InformaÃ§Ãμes de sessão",
+                    "nl": "Sessie-informatie",
+                    "fr": "Infos de séance",
+                    "it": "Informazioni di sessione",
+                    "es": "Información de sesión",
+                    "pl": "Informacje o sesji",
+                    "uk": "Інформація про сеанс",
+                    "zh-cn": "会话信息"
+                },
+                "type": "string",
+                "read": true,
+                "write": false,
+                "def": ""
+            },
+            "native": {}
+        },
+        {
+            "_id": "status",
+            "type": "state",
+            "common": {
+                "role": "json",
+                "name": {
+                    "en": "Status",
+                    "de": "Status",
+                    "ru": "Статус",
+                    "pt": "Estado",
+                    "nl": "Status",
+                    "fr": "État",
+                    "it": "Stato",
+                    "es": "Situación",
+                    "pl": "Status",
+                    "uk": "Статус на сервери",
+                    "zh-cn": "状态"
+                },
+                "type": "string",
+                "read": true,
+                "write": false,
+                "def": "{}"
+            },
+            "native": {}
         }
-      },
-      "native": {}
-    },
-    {
-      "_id": "info.connection",
-      "type": "state",
-      "common": {
-        "role": "indicator.connected",
-        "name": {
-          "en": "Device or service connected",
-          "de": "Geräte- oder Serviceanschluss",
-          "ru": "Устройство или сервис подключены",
-          "pt": "Dispositivo ou serviço conectado",
-          "nl": "Device of dienst verbonden",
-          "fr": "Appareil ou service connecté",
-          "it": "Dispositivo o servizio collegato",
-          "es": "Dispositivo o servicio conectado",
-          "pl": "Device",
-          "uk": "Пристрої або послуги підключені",
-          "zh-cn": "证人或有关服务"
-        },
-        "type": "boolean",
-        "read": true,
-        "write": false,
-        "def": false
-      },
-      "native": {}
-    },
-    {
-      "_id": "session",
-      "type": "state",
-      "common": {
-        "role": "state",
-        "name": {
-          "en": "Session infos",
-          "de": "Sitzungsinfos",
-          "ru": "Сессионная информация",
-          "pt": "InformaÃ§Ãμes de sessão",
-          "nl": "Sessie-informatie",
-          "fr": "Infos de séance",
-          "it": "Informazioni di sessione",
-          "es": "Información de sesión",
-          "pl": "Informacje o sesji",
-          "uk": "Інформація про сеанс",
-          "zh-cn": "会话信息"
-        },
-        "type": "string",
-        "read": true,
-        "write": false,
-        "def": ""
-      },
-      "native": {}
-    },
-    {
-      "_id": "status",
-      "type": "state",
-      "common": {
-        "role": "json",
-        "name": {
-          "en": "Status",
-          "de": "Status",
-          "ru": "Статус",
-          "pt": "Estado",
-          "nl": "Status",
-          "fr": "État",
-          "it": "Stato",
-          "es": "Situación",
-          "pl": "Status",
-          "uk": "Статус на сервери",
-          "zh-cn": "状态"
-        },
-        "type": "string",
-        "read": true,
-        "write": false,
-        "def": "{}"
-      },
-      "native": {}
-    }
-  ]
+    ]
 }
